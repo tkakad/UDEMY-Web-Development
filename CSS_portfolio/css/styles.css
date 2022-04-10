@@ -1,0 +1,50 @@
+/* TAG SELECTORS */
+
+body {
+  margin: 0;
+}
+
+div {
+  background-color: #e4f9f5;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* CLASS SELECTORS */
+
+.top {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 600px;
+}
+
+.middle {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  bottom: 300px;
+}
+
+.bottom {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  bottom: 600px;
+  left: 300px;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.introduction {
+  text-align: center;
+}
+
+/* ID SELECTORS */
