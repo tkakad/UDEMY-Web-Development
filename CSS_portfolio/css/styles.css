@@ -5,9 +5,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  padding: 0;
   position: relative;
   text-align: center;
 }
@@ -41,15 +46,22 @@ h3 {
   margin-top: 0;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin: 0;
+}
+
 /* CLASS SELECTORS */
 
 .bottom-cloud {
-  left: 20rem;
+  left: 14rem;
   position: absolute;
-  width: 12%;
+  width: 13%;
 }
 
 .contact {
+  font-size: 1.2rem;
   margin: 0 3rem;
 }
 
@@ -57,15 +69,21 @@ h3 {
   background-color: white;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 66%;
+}
+
+.copyright-text {
+  margin-top: 1.2rem;
+  font-size: 1rem;
 }
 
 .mountain-img {
-  width: 46%;
+  position: relative;
+  width: 52.5%;
 }
 
 .skill-table {
-  padding: 0 10rem;
+  padding: 0 12rem;
 }
 
 .skills {
@@ -91,9 +109,10 @@ h3 {
 }
 
 .top-cloud {
-  left: 30rem;
-  position: relative;
-  width: 12%;
+  right: 18rem;
+  position: absolute;
+  top: 1rem;
+  width: 13%;
 }
 
 .contact-me,
